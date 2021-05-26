@@ -1,7 +1,9 @@
 package com.example.posttweet.models
 
+import com.example.posttweet.R
+
 data class User (
     val id:String="",
-    val name:String="",
-    val imageUrl:String=""
+    var name:String="",
+    var imageUrl:String=""
 )
